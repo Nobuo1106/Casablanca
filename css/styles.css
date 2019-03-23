@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://st2.depositphotos.com/7226438/11363/v/950/depositphotos_113636390-stock-illustration-arabesque-on-a-blue-background.jpg");
+}
+
+mark {
+  background-color: transparent;
+  color: black;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100%;
+  text-align: center
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-shadow: 4px 2px #002366;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #2E86C1;
+}
+#gpoy {
+  position: absolute;
+  right: -168px;
+  top: 3px;
+  padding: 8px 0px 3px;
+  z-index: 99;
+  opacity: 0.9;
+  transition: 1s;
+  line-height: 12px;
+}
+
+.repper {
+  width: 726px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 7px 7px 9px #888888;
+}
+
+.repper:hover #gpoy {
+  transition: 2s;
+  right: 23px;
+}
