@@ -27,3 +27,5 @@ arrowLeft.addEventListener('click', function() {
 })
 
 startSlide();
+
+document.getElementsByTagName("h1")[0].style.fontSize = "60px"; 
